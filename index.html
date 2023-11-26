@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway&family=Roboto:wght@400;500;700&family=Yanone+Kaffeesatz:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
     <link
       rel="stylesheet"
@@ -11,30 +17,44 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="header">
+      <nav class="header=nav">
+        <a class="header-nav-logo" href="./index.html"
+          ><span>Web</span>Studio</a
+        >
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-menu-item-link" href="#">Studio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-item-link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-item-link" href="#">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-contact">
+        <ul class="header-contact-list">
+          <li class="header-contact-item">
+            <a class="header-contact-item-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="header-contact-item">
+            <a class="header-contact-item-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button class="btn" type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
       <section>
         <h2>About</h2>
