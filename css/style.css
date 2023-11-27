@@ -5,14 +5,6 @@ body{
     font-size: 16px;
     font-style: normal;
 
-}
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
 .header-nav-logo-black{
     color:#2E2F42;
     font-family: Raleway, sans-serif;
