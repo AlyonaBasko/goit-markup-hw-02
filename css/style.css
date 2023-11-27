@@ -52,15 +52,12 @@ body{
     background-color:#2E2F42;
 }
 .hero-title{
-    width: 496px;
     color: #FFF;
         text-align: center;
-        /* Header 1 */
         font-family: Roboto,sans-serif;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        /* 107.143% */
         letter-spacing: 1.12px;
 }
 .hero-btn{
@@ -90,7 +87,7 @@ body{
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02px;
+        letter-spacing: 0.32px;
 }
 .team-list{
     background-color: #FFF;
