@@ -90,7 +90,7 @@ body{
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02px;
 }
 .team-list{
     background-color: #FFF;
@@ -162,7 +162,7 @@ body{
     background-color: #2E2F42;
 }
 .footer-logo-white{
-    color: #F4F4FD;
+    color: #f4f4fd;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
